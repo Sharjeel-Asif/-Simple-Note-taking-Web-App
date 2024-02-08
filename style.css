@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: rgb(101, 187, 237);
+  padding: 6rem 8rem;
+}
+h1{
+  color: white;
+}
+#addBtn{
+  padding: .8rem 1.1rem;
+
+  margin-top: 1rem;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  background-color: rgb(0, 115, 255);
+}
+.note-container .style{
+  background-color: white;
+  margin-top: 2rem;
+  width: 500px;
+  cursor: pointer;
+  height: 160px;
+  border-radius: 3px;
+  padding: 1rem;
+  font-size: 1.2rem;
+  position: relative;
+  outline: none;
+  
+}
+
+.move{
+position: absolute;
+bottom: 5px;
+right: 10px;
+width: 30px;
+cursor: pointer;
+}

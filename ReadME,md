@@ -1,0 +1,9 @@
+# Simple Note-taking Web App
+
+This is a simple web app for taking notes, where you can add editable notes with a trash icon to delete them. The notes are saved to and retrieved from localStorage, allowing persistent storage across page reloads.
+
+## Features
+
+- Add new notes with editable content.
+- Delete notes using the trash icon.
+- Persistent storage using localStorage.
