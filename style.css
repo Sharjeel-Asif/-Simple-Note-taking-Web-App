@@ -1,97 +1,66 @@
+
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: content-box;
   font-family: Arial, Helvetica, sans-serif;
 }
-.container{
-  width: 91vw;
-  height: 88vh;
-  background-color: #f3f1f1;
-  padding: 3rem 4rem;
-}
-.btns{
- 
-
-}
-.btns button{
-  padding: 7px 10px;
-  border-radius: 2px;
-  margin: 5px;
-  color: white;
-  font-size: 1.1rem;
-  border: none;
-  outline: none;
-
-  background-color: rgb(83, 81, 81);
-  cursor: pointer;
-}
-
-#notification{
-  /* position: relative; */
-}
-
-#notification{
-
-  position: absolute;
+body{
+  background-color: plum;
   display: flex;
-  flex-direction: column;
-align-items: flex-end;
-
-  right: 20px;
-  bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* position: relative; */
 
 }
-.toast{
-  width: 300px;
-  height: 80px;
+
+
+.container{
   background-color: white;
-  box-shadow: 0 0 10px rgba(200, 204, 201, 0.9);
-  font-weight: 500;
-  margin: 6px 0;
-  position: relative;
- display: flex;
- font-size: 1.2rem;
- transform: translateX(110%);
- animation: moveleft 0.5s linear forwards ;
- align-items: center;
+  width:400px;
+border-radius: 5px;
 
+padding: 1rem;
+position:relative;
 
 }
-@keyframes moveleft{
-  100%{
-    transform: translateX(0%);
-  }
-}
-.toast::after{
-  content:"" ;
+.container h1{
   position: absolute;
+  top: -18%;
+  left: 50%;
 
-  bottom: 0;
-  background-color: green;
-  height: 3px;
-  animation: anim 5s linear forwards;
+  font-size: 4rem;
+  transform: translate(-50%,-50%);
 }
-@keyframes anim{
-  100%{
-    width: 0;
-  }
-  0%{
-    width: 100%;
-  }
+.wrapper{
+
 }
- .succes{
-  margin: 0 20px;
-  font-size: 30px;
+.quote-Display{
+
+  font-size: 1.4rem;
+
+  padding: 1rem;
+
+
+}
+.quote-Input{
+
+padding: 1rem;
+resize: none;
+
+  font-size: 1.4rem;
+  border: none;
+  border: 1px solid #dadada;
+}
+.quote-Input:focus{
+  border: black;
+}
+.correct{
   color: green;
 }
- .error{
-  margin: 0 20px;
-  font-size: 30px;
+.incorrect{
   color: red;
-}
-.invalid{
-  margin: 0 20px;
-  font-size: 30px;
-  color: rgb(202, 202, 63);
+  text-decoration: underline;
 }
